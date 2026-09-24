@@ -50,11 +50,11 @@ The application runs through a tightly optimized 3-phase pipeline:
 
 ## Features
 
-* **⚡ Incremental SHA-256 Hashing:** Streams files efficiently in chunks to minimize memory overhead.
-* **⚙️ Config-Driven Exclusions:** Reads a local `config.json` to filter out specific files, wildcards (`*.dll`, `*.pyi`), and directory bloat (`node_modules`, `.target`, etc.).
-* **🌳 Cluster-Only SVG Export:** Prunes unique paths from the tree layout, mapping only duplicate nodes with sequential cluster tags (`[Cluster #1]`, `[Cluster #2]`).
-* **📏 Dynamic Canvas Scaling:** Automatically expands the SVG width and height based on the maximum tree depth and leaf count, eliminating right-edge clipping.
-* **💻 Clean Terminal Feedback:** Uses ANSI escape codes (`\x1b[K`) and smart path truncation to keep progress updates locked to a single, flicker-free terminal line.
+* **Incremental SHA-256 Hashing:** Streams files efficiently in chunks to minimize memory overhead.
+* **Config-Driven Exclusions:** Reads a local `config.json` to filter out specific files, wildcards (`*.dll`, `*.pyi`), and directory bloat (`node_modules`, `.target`, etc.).
+* **Cluster-Only SVG Export:** Prunes unique paths from the tree layout, mapping only duplicate nodes with sequential cluster tags (`[Cluster #1]`, `[Cluster #2]`).
+* **Dynamic Canvas Scaling:** Automatically expands the SVG width and height based on the maximum tree depth and leaf count, eliminating right-edge clipping.
+* **Clean Terminal Feedback:** Uses ANSI escape codes (`\x1b[K`) and smart path truncation to keep progress updates locked to a single, flicker-free terminal line.
 
 ---
 
@@ -118,5 +118,5 @@ cargo run --release -- "D:\Work\Repos\" output_tree.svg
 
 ## 5. Screenshots
 
-<img src="./screenshots/chrome_VCNVfWVy01.webp" alt="svg" width="360" height="300">
-<img src="./screenshots/WindowsTerminal_cG9J7YKxTW.webp" alt="console" width="480" height="300">
+<img src="./Screenshots/chrome_VCNVfWVy01.webp" alt="svg" width="360" height="300">
+<img src="./Screenshots/WindowsTerminal_cG9J7YKxTW.webp" alt="console" width="480" height="300">
