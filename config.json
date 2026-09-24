@@ -1,0 +1,36 @@
+{
+  "excluded_files": [
+    ".DS_Store",
+    "LICENSE",
+    "Thumbs.db",
+    "desktop.ini",
+    ".gitattributes",
+    ".gitignore",
+    "*.meta",
+    "*.resS",
+    "*.renderTexture",
+    "*.mat",
+    "*.pyi",
+    "*.pyc",
+    "*.mo",
+    "*.bak",
+    "*.cmake"
+  ],
+  "ignored_folders": [
+    ".git",
+    "node_modules",
+    "target",
+    ".vs",
+    ".vsconfig",
+    ".vscode",
+    ".idea",
+    "PackageCache",
+    "Library",
+    "Logs",
+    "Packages",
+    "MonoBleedingEdge",
+    "blender-3.4.1-windows-x64",
+    "CMakeFiles",
+    "site-packages"
+  ]
+}
